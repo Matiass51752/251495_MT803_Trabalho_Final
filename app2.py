@@ -279,7 +279,7 @@ elif selected_page == "Qualidade dos Dados":
     st.markdown(
     """
     - **Location (39,6 %) e Payment Method (31,8 %)** faltantes gerariam perda significativa dos dados. Além de que substituir esses valores faltantes pelas classes mais frequentes (imputação) não é adequado, pois causaria viés em uma das classes.   
-    - **“Unknown”** sinaliza falha de captura (PDV/app) e, em vez de apagar, deve ser monitorado como indicador de qualidade.
+    - **“Unknown”** sinaliza falha de captura (Ponto de Venda / aplicativo) e, em vez de apagar, deve ser monitorado como indicador de qualidade.
     """,
     unsafe_allow_html=True
 )
